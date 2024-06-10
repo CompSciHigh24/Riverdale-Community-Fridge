@@ -217,10 +217,15 @@ app.post("/adminevent", (req, res) => {
 // CRUD
 
 app.get("/items", (req, res) => {
-  event.find({}).then((items) => {
-    // res.json(items)
-    res.render("items.ejs", { item: items });
-  });
-  app.use((req, res, next) => {
+    event.find({}).then((items) => {
+        // res.json(items)
+        res.render("items.ejs", {
+            item: items
+        });
+    });
+});
+
+app.use((req, res, next) => {
     res.status(404).send("404 Not Found");
 });
+  
