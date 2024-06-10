@@ -1,0 +1,44 @@
+#body {
+  font-family: 'arial';
+  margin: 0;
+   background-color: mintcream;
+}
+
+.profile-info {
+  text-align: center;
+  flex: 1;
+}
+
+h1 {
+  color: #333;
+}
+#Info{
+  font-weight: bold;
+}
+#Name{
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 0;
+}
+#Logo{
+  max-width: 50px; 
+  max-height: 50px;
+}
+
+img {
+  border: 2px solid #333;
+  width: 99.80%; 
+  height: 500px;
+  background-color: darkred;
+}
+
+.title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+}

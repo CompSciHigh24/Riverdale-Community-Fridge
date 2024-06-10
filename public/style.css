@@ -1,0 +1,127 @@
+#fridge {
+  font-family: 'Arial';
+  background-color: #b1d3dd; /* Light green background */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center; 
+}
+
+
+
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: black; /* Dark green text color */ 
+}
+
+#addfood{
+  font-family: 'arial';
+  background-color: #b1d3dd; /* Light green background */
+  box-sizing: border-box;
+  
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #750000; /* Dark green text color */
+  text-align: left; 
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff; /* White background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+input[type="text"],
+input[type="number"],
+button[type="submit"] {
+  width: calc(100% - 18px); /* Subtracting 18px for the input border */
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+button[type="submit"] {
+  background-color: #000000; /* Green submit button */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #575757; /* Dark green hover color */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border: 2px solid #575757; /* Dark green focus border */
+  outline: none;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px; 
+  height: 50px; 
+  width: 50px;
+}
+.card p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.card button {
+  background-color: #0080ff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+#logo{
+  max-width: 5px; 
+max-height: 5px;
+}
+
+
+navbar{
+  text-align: left;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+
+.rules{
+  max-width: 45%;
+  /* height: auto; */
+  /* object-position: right; */
+}
+
+#inventory{
+  font-weight: bold;
+} 

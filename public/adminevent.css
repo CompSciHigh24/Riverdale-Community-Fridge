@@ -1,0 +1,81 @@
+#fridge {
+  font-family: 'arial';
+  /* background-color: #ab2b2b; /* Light green  */
+
+  background-image: url("/images/rose.jpg");
+  text-align: left;
+  padding: 0px;
+  }
+
+.title{
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  margin-bottom: .1px;
+  border-color: black;
+}
+
+#addfood{
+  font-family: 'arial';
+  background-color: #b1d3dd; /* Light green background */
+  box-sizing: border-box;
+
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #750000; /* Dark green text color */
+  text-align: left; 
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background: #fff; /* White background */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin-top: 25px;
+}
+
+input[type="text"],
+input[type="number"],
+button[type="submit"] {
+  width: calc(100%); /* Subtracting 18px for the input border */
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+button[type="submit"] {
+  background-color: #000000; /* Green submit button */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #575757; /* Dark green hover color */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border: 2px solid #575757; /* Dark green focus border */
+  outline: none;
+}
+
+#add{
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+
